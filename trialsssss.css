@@ -2,3 +2,23 @@ p{
     color:white;
     background-color: gray;
 }
+/*Background-image property*/
+body{
+    background-image: url("css_logo.png");
+    background-attachment: auto; /*determine if the image will be fixed or scrolls alongside  the page*/
+    background-repeat: no-repeat;/*whether the image is to repeat*/
+}
+/*list style property*/
+ol{
+    list-style-type: lower-alpha;/*for ordered list it deals with numbers and letters*/
+}
+ul{
+    list-style-type: disc;/*could be disc, circle, dot, square etc*/
+    list-style-image: url(" "); /*insert image into a list*/
+    list-style-position: inside;/*specify position of the image in the list*/
+}
+/*to hover*/
+div:hover{
+    
+}
+
