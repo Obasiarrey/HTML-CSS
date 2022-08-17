@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    background-color: black;
+    color: white;
+    z-index: 2; /* makes image or object to be above everything on the page*/
+}
+.nav .bars a{
+   /* position: relative;*/
+    /*left: 1030px;
+    top: 30px;*/
+    text-decoration-line: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.nav p{
+    position: relative;
+    left: 2px;
+    top: 2px;
+    font-size: 60px;
+    font-family: 'Brush Script MT';
+}
+form{
+    border: 3px solid rgb(127, 123, 123);
+    margin-top: 30px;
+ }
+input[type=text], input[type=password] {
+    width: 100%;
+    height: 50%;
+    padding: 10px 8px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+button{
+    color: white;
+    background-color: rgb(16, 102, 231);
+    padding: 3px 3px;
+    margin :3px 300px;
+    cursor: pointer;
+ }
+ button:hover{
+    opacity: 0.8;
+ }
+
+.container h1, p{
+    text-align: center;
+}

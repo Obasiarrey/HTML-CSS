@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.nav{
+    position: sticky;
+    top: 0;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    background-color: black;
+    color: white;
+    z-index: 2; /* makes image or object to be above everything on the page*/
+}
+.nav .bars a{
+   /* position: relative;*/
+    /*left: 1030px;
+    top: 30px;*/
+    text-decoration-line: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.nav p{
+   /* position: relative;
+    left: 100px;
+    top: 30px;*/
+    font-size: 60px;
+    font-family: 'Brush Script MT';
+}
+
+.body{
+   text-align: center;
+   color: black;
+}
+.body h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.body a{
+    color: black;
+}
+.body p{
+    font-size: 20px;
+}
+/*.body .para1 a{
+    color: black;
+}*/
